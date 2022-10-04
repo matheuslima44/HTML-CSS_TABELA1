@@ -1,0 +1,45 @@
+header{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main{
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color:  rgb (250, 240, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h3{
+    text-align: center; /* para centralizar texto do h3 */
+}
+
+img{
+    width: 20%;
+
+}
+
+table, th, tr, td{
+    border: 1px solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    table-layout: auto;
+    border-collapse: collapse;
+}
+/* even são as linhas pares, odd são as linhas impares */
+tr:nth-child(even){ 
+    background: grey;
+}
+
+tr:nth-child(odd){
+    background: whitesmoke;
+}
